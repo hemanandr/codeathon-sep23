@@ -16,3 +16,8 @@ function validateIPAddress(ipAddress) {
         return false;
     }
 }
+
+//run samples through the validateIPAddress function
+console.log(validateIPAddress('255.255.255.0'));
+console.log(validateIPAddress('555.555.555.555'));
+console.log(validateIPAddress('256.255.0.0'));

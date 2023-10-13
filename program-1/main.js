@@ -19,3 +19,8 @@ function sortString(str) {
   }
   return finalStr;
 }
+
+
+//run the samples for sortString
+console.log(sortString('hello world'));
+console.log(sortString('tree'));
